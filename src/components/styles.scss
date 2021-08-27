@@ -1,0 +1,29 @@
+.CommentForm-Wrapper {
+    display: flex;
+    flex-direction: column;
+    ::placeholder {
+        color: red;
+        opacity: 1;
+      }
+    input {
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+    .CommentForm-Textarea {
+        height: 150px;
+        padding: 8px;
+        resize: none;
+        margin-bottom: 1rem;
+    }
+}
+.CommentBox-Wrapper {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    text-align: left;
+    padding: .5rem;
+    .CommentBox-Date {
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+}
